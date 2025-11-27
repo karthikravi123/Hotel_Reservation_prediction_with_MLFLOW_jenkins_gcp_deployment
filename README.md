@@ -59,3 +59,21 @@ gcloud --version
 
 
 ===============================================================================
+
+##grant docker permission to jenkins
+groupadd docker
+usermod -aG docker jenkins
+usermod -aG root jenkins
+exit
+
+
+
+===============================================================================
+
+
+Manage jenkins - credentials -system0 global credentials - add credentials
+kind- secret file
+file upload - service key json file
+id - gcp key(any)
+
+giving access to jenkins GCP cloud
