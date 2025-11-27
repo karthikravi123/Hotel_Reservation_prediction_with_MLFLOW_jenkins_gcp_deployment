@@ -1,5 +1,7 @@
 Hotel Reservation Prediciton
 
+<img width="1918" height="955" alt="image" src="https://github.com/user-attachments/assets/91578420-c925-44e9-b98e-2de65d4a17ab" />
+
 
 ##setup jenkins Cntainer
 
