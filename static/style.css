@@ -1,0 +1,102 @@
+/* GENERAL STYLING */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* HEADING */
+.container h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/* FORM GROUP */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* LABELS */
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #555555;
+}
+
+/* INPUTS */
+input[type="number"], select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus, select:focus {
+    border-color: #74ebd5;
+    box-shadow: 0 0 5px rgba(116, 235, 213, 0.5);
+    outline: none;
+}
+
+/* BUTTON */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #74ebd5;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* RESULT DISPLAY */
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f0f8ff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    border: 1px solid #74ebd5;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    button[type="submit"] {
+        font-size: 16px;
+    }
+}
