@@ -1,0 +1,5 @@
+venc/
+mlruns/
+MLOPS_PROJECT_1.egg-info/
+logs/
+__pycache__/
