@@ -3,7 +3,7 @@ Hotel Reservation Prediciton
 <img width="1918" height="955" alt="image" src="https://github.com/user-attachments/assets/91578420-c925-44e9-b98e-2de65d4a17ab" />
 
 
-##setup jenkins Cntainer
+##setup jenkins Container
 
 docker run -d --name jenkins-dind --privileged -p 8080:8080 -p 50000:50000 -v //var/run/docker.sock:/var/run/docker.sock -v jenkins_home:/var/jenkins_home jenkins-dind
 
@@ -17,6 +17,7 @@ docker logs jenkins-dind
 ===============================================================================
 
 ##install dependencies on jenkins container
+
 docker exec -u root -it jenkins-dind bash
 apt update -y
 apt install -y python3
